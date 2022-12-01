@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+  gap:40rem
+
+}
+.logo{
+    width: 10rem;
+    height: 3rem;
+}
+.header-menu{
+    list-style: none;
+    display:flex;
+    gap:2rem;
+    color:white
+}
+.menu{
+    display: flex;
+    gap:2rem
+
+}
+.nav:hover{
+    background-color: var(--planCard);
+    cursor: pointer;
+}
+
+/* responsive */
+
+@media screen and (max-width: 768px) {
+    .header>:nth-child(2) {
+        position: fixed;
+        right:1rem;
+        z-index: 99;
+
+    }
+    .menu{
+        flex-direction: column;
+        z-index: 99;
+    }
+
+}
