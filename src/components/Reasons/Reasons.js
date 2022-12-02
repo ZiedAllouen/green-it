@@ -1,9 +1,7 @@
 import React from 'react'
 import './Reasons.css';
-import image1 from '../../assets/image1.jpg';
-import image2 from '../../assets/image2.png';
-import image3 from '../../assets/image3.png';
-import image4 from '../../assets/image4.png';
+import image1 from '../../assets/image1.png';
+
 import tick from '../../assets/check-mark.png';
 
 const Reasons = () => {
@@ -11,15 +9,12 @@ const Reasons = () => {
     <div className='Reasons' >
         <div className='left-r'>
             <img src={image1} alt={image1} />
-            <img src={image2} alt={image2} />
-            <img src={image3} alt={image3} />
-            <img src={image4} alt={image4} />
         </div>
         <div className='right-r'>
-          <span>Some Reasons</span>
+          <span>Some Tools</span>
           <div>
-            <span className='stroke-text'>Why </span>
-            <span> Choose Us ?</span>
+            <span className='stroke-text'>To </span>
+            <span> Be Protected</span>
           </div>
           
           

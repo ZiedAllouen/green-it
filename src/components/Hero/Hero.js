@@ -50,8 +50,8 @@ const Hero = () => {
           <span>Million new STI infections/Year</span>
         </div>
         <div>
-          <span><NumberCounter end={33} start={20} delay='4' preFix="+" /> </span> 
-          <span>Sex Taboo</span>
+          <span><NumberCounter end={32} start={20} delay='4' preFix="+" /> </span> 
+          <span>Cause Of Infection</span>
         </div>
 
       </div>
@@ -68,9 +68,9 @@ const Hero = () => {
         transition={transition}
         className='heart-rate'>
           <img src={Heart} />
-          <span>Improve your <br/> </span>
-          <span>Heart Rate</span>
-          <span>100 bpm</span>
+          <span>Be conscious    <br/> </span>
+          <span>Be aware</span>
+          
         </motion.div>
         {/* hero images */}
         <img src={HeroImg} className='hero-image'/>

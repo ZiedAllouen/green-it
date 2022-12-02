@@ -7,8 +7,8 @@ const Programs = () => {
         {/* header */}
         <div className='programs-header'>
             <span className='stroke-text'>Explore </span>
-            <span>Our services</span>
-            <span className='stroke-text'>To reveal your best shape</span>
+            <span>How You Can</span>
+            <span className='stroke-text'>Be infected with HIV</span>
         </div >
         {/* programsData */}
         <div className='services'>
@@ -17,7 +17,7 @@ const Programs = () => {
                     {program.image}
                     <span> {program.heading} </span>
                     <span>{program.details}</span>
-                    <div className='see-more'> <span>See More</span> </div>
+
                 </div>
            ) )}
         </div>

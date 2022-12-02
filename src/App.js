@@ -16,7 +16,7 @@ const App = () => {
         <Reasons/>
         <Coaches/>
         <Join/>
-        <Footer/>
+
     </div>
   )
 }
