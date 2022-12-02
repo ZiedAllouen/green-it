@@ -14,26 +14,26 @@ const Hero = () => {
     <div className='hero'>
       <div className='blur hero-blur'></div>
       <div className='left-h'>
-        <Header/>
+        
         <div className='best-ad'>
           <motion.div
           initial={{left: mobile? "148":"185px"}}
           whileInView={{left:'8px'}}
           transition={{...transition,type:'tween'}}
           ></motion.div>
-         <span> the best fit web app in tunisia</span>
+         <span> Don’t be a fool, cover your tool</span>
         </div>
 
         <div className='hero-text'>
-          <div>
-            <span className='stroke-text'>Shape </span>
-            <span>Your </span>
+          <div>  
+            <span className='stroke-text'>Sex </span>
+            <span>  is cleaner with  </span>
             </div> 
             <div> 
-              <span>Ideal Body</span> 
+              <span>a packaged wiener</span> 
             </div>
             <div >
-              <span> We help you to get your best shape by providing the best exercises ,supplements, nutrition, and more ...</span>
+              <span> We Help You To Protect Your Health, Be a Real Actor Of Your Sexual life and more ...</span>
             </div>
         </div>
 
@@ -41,17 +41,17 @@ const Hero = () => {
       <div className='figures' >
         <div>
           <span>
-          <NumberCounter end={1300} start={1000} delay='4' preFix="+" />
+          <NumberCounter end={43} start={20} delay='4' preFix="+" /> 
              </span> 
-          <span>Exercises</span>
+          <span>Million HIV Infections</span>
         </div>
         <div>
-          <span><NumberCounter end={1000} start={800} delay='4' preFix="+" /> </span> 
-          <span>Advice</span>
+          <span><NumberCounter end={374} start={350} delay='4' preFix="+" /> </span> 
+          <span>Million new STI infections/Year</span>
         </div>
         <div>
-          <span><NumberCounter end={1100} start={990} delay='4' preFix="+" /> </span> 
-          <span>nutrition information</span>
+          <span><NumberCounter end={33} start={20} delay='4' preFix="+" /> </span> 
+          <span>Sex Taboo</span>
         </div>
 
       </div>
@@ -80,18 +80,6 @@ const Hero = () => {
         transition={transition}
         src={HeroBack} className='hero-image-back'/>
 
-        {/* calories */}
-        <motion.div 
-        initial={{right:'37rem'}}
-        whileInView={{right:"28rem"}}
-        transition={transition}
-        className='calories'>
-          <img src={calories} />
-          <div>
-            <span>Burn Calories </span> 
-            <span> Manifest ABS</span>
-          </div>
-        </motion.div>
       </div>
     </div>
   )
