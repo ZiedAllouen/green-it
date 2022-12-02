@@ -20,12 +20,12 @@ const Join = () => {
         <div className='left-j'>
             <hr/>
             <div>
-                <span className='stroke-text'>READY TO </span>
-                <span>LEVEL UP ?</span>
+                <span className='stroke-text'>Want TO </span>
+                <span>Know more ?</span>
             </div>
             <div>
                 <span> JOIN THE </span>
-                <span className='stroke-text'> TEAM</span>
+                <span className='stroke-text'> Family</span>
             </div>
 
 

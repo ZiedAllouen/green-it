@@ -21,22 +21,22 @@ const Reasons = () => {
             <div className='details-r'>
             <div>
               <img src={tick} />
-              <span>more than 1300 detailed exercise </span>
+              <span>Condoms help prevent HIV for higher risk sexual activities like anal or vaginal sex, and for lower risk activities, like oral sex and sharing sex toys. </span>
             </div>
 
             <div>
               <img src={tick} />
-              <span>well-chosen information and advice from international sources.</span>
+              <span>PrEP prevents the HIV virus from growing and attaching itself as soon as it enters the body.</span>
             </div>
 
             <div>
               <img src={tick} />
-              <span>we suggest to you certified coaches with tons of experience and information </span>
+              <span>TasP refers to taking HIV medicine to prevent the sexual transmission of HIV. It is one of the most highly effective options for preventing HIV transmission.</span>
             </div>
 
             <div>
               <img src={tick} />
-              <span>all information about supplements </span>
+              <span>Pep means taking medicine to prevent HIV after a possible exposure. </span>
             </div>
 
           </div>

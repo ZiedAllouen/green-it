@@ -11,10 +11,11 @@ const Coaches = () => {
   return (
     <div className='Coaches'>
       <div className='left-c'>
-        <span>Coaches</span>
+        <span>Stories</span>
       
-        <span className='stroke-text'>what</span>
-        <span>they will <span className='stroke-text'>add</span> </span>
+
+        <span>To <span className='stroke-text'>encourage </span>and </span>
+        <span>Inspire <span className='stroke-text'>You</span> </span>
         <motion.span
         key={selected}
         initial={{opacity:0,x:-100}}
@@ -24,7 +25,7 @@ const Coaches = () => {
         >{CoachesData[selected].review }</motion.span>
         <span>
         <span style={{color:'var(--orange)'}}>{CoachesData[selected].name }</span>{" "}
-        -{CoachesData[selected].status }
+       
         </span>
       </div>
       <div className='right-c'>

@@ -1,10 +1,10 @@
 import React from 'react';
-import Header from '../Header/Header';
+
 import './Hero.css'
 import Heart from '../../assets/heart.png'
 import HeroImg from '../../assets/back-img.png'
 import HeroBack from '../../assets/hero_image_back.png'
-import calories from '../../assets/calories.png';
+
 import NumberCounter from 'number-counter';
 import {motion} from 'framer-motion';
 const Hero = () => {

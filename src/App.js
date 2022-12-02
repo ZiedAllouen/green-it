@@ -4,7 +4,6 @@ import Programs from './components/Programs/Programs'
 import Reasons from './components/Reasons/Reasons'
 import Coaches from './components/Coaches/Coaches'
 import Join from './components/Join/Join'
-import Footer from './components/Footer/Footer'
 import './App.css';
 
 const App = () => {

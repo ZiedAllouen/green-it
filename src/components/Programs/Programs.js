@@ -8,7 +8,7 @@ const Programs = () => {
         <div className='programs-header'>
             <span className='stroke-text'>Explore </span>
             <span>How You Can</span>
-            <span className='stroke-text'>Be infected with HIV</span>
+            <span className='stroke-text'>Be infected with HIV/STI</span>
         </div >
         {/* programsData */}
         <div className='services'>

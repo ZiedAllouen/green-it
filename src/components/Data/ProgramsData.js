@@ -1,3 +1,8 @@
+
+import sex from '../../assets/sex.png'
+import mbali from '../../assets/mbali.png'
+import hamid from '../../assets/hamid.png'
+import talent from '../../assets/talent.png'
 export const programsData = [
     {
       image: (
